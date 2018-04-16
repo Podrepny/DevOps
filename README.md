@@ -58,3 +58,5 @@ iptables -t nat
 iptables -t nat -nvL
 
 cat openssl.cnf | grep -v "^[[:space:]]*#" | grep -v "^$"
+
+sed -i -e 's/\r$//' file.sh
