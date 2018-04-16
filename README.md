@@ -37,3 +37,24 @@ git commit -m "Added 'test_file2.txt'."
 
 git push
 
+
+git clone ...
+
+
+nginx -t
+
+service nginx restart
+
+netstat -nlp
+
+tail -f /var/log/nginx/* &
+
+tcpdump -nni ens33 icmp
+
+tcpdump -nni ens32
+
+iptables -t nat
+
+iptables -t nat -nvL
+
+cat openssl.cnf | grep -v "^[[:space:]]*#" | grep -v "^$"
